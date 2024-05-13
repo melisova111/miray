@@ -1,44 +1,51 @@
-import Logo from "../Logo/Logo";
-import Menu from "../Menu/Menu";
-import "./Footer.css";
-import { Link } from "react-router-dom";
+import './Footer.css';
 
 function Footer() {
   return (
-    <footer>
-      <div className="container">
-        <div className="Foot flex">
-          <Logo />
-          <div className="Foot_menu">
-            <p className="Foot_tit">Menu</p>
-            <div className="Foot_menu-in flex">
-              <Menu />
-              <p>
-                If you reside in the U.S. territories, please call Goldman Sachs
-                at 877-255-5923 with questions about Apple Card. Learn more
-                about how Apple Card applications are evaluated at
-                support.apple.com/kb/HT209218.
-              </p>
+    <>
+      <footer>
+        <div className="container">
+          <div className="footer_big flex">
+
+            <div className="footer_left">
+              <div className="footer_tit">MirAy</div>
+              <div className="footer_icons flex">
+                <div className="footer_ic"></div>
+                <div className="footer_ic"></div>
+                <div className="footer_ic"></div>
+                <div className="footer_ic"></div>
+              </div>
+
+
+
             </div>
-          </div>
-          <div className="Foot_links-wrap">
-            <p className="Foot_tit">Links</p>
-            <div className="Foot_links flex">
-              <Link className="Foot_link Foot_link__inst" />
-              <Link className="Foot_link Foot_link__fb" />
-              <Link className="Foot_link Foot_link__tw" />
+
+            <div className="footer_right flex">
+              <div className="footer_nav">
+                <span className="footer_txt"> Categories</span>
+                <ul className="footer_list">
+                  <li><a href="#">Skincare </a></li>
+                  <li><a href="#">Lipstick</a></li>
+                  <li><a href="#">Fragrance</a></li>
+                  <li><a href="#">Makeup</a></li>
+                </ul>
+              </div>
+
+              <div className="footer_nav">
+                <span className="footer_txt"> Recources </span>
+                <ul className="footer_list">
+                  <li><a href="#">Contact</a></li>
+                  <li><a href="#">Help</a></li>
+                </ul>
+              </div>
             </div>
+
           </div>
+
+          <p className="footer_copy">Copyright © 2024 Hashtag Developer. All Rights Reserved</p>
         </div>
-        <div className="Foot_bot">
-          <p>
-            More ways to shop: Find an Apple Store or other retailer near you.
-            Or call 1-800-MY-APPLE.
-          </p>
-          <p>Copyright © 2024 Apple Inc. All rights reserved.</p>
-        </div>
-      </div>
-    </footer>
+      </footer>
+    </>
   );
 }
 
