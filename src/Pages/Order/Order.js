@@ -2,7 +2,7 @@ import './Order.css';
 
 function Order() {
   return (
-    <>Order</>
+   <> </>
   );
 }
 
