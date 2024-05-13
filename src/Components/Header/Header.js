@@ -1,26 +1,39 @@
-import './Header.css';
-import Menu from '../Menu/Menu';
-import Button from '../Button/Button';
-import Logo from '../Logo/Logo';
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import React from 'react';
 
+
+import './Header.css';
 function Header() {
   return (
-    <header className="Header">
-      <div className="container">
-        <div className="Head flex">
-          <Logo />
-          <Menu />
-          <div className="Buttons flex">
-            <Button>Login</Button>
-            <Button>Sign In</Button>
-          </div>
-          <Link to="/cart" className="Cart_ic">
-            <span>10</span>
-          </Link>
+    <>
+
+      <div className="all_menu">
+        <div >
+            <nav className='menu flex' >
+              <ul className='menu flex'>
+                <li>
+                  <Link to="./">Home</Link>
+                </li>
+                <li>
+                  <Link to="./about">Shop all</Link>
+                </li>
+                <li>
+                  <Link to="./delivery">Delivery</Link>
+                </li>
+                <li>
+                  <Link to="./contact">Contact</Link>
+                </li>
+                <li>
+                  <Link to="./cart">Cart</Link>
+                </li>
+              </ul>
+            </nav>
+
+
         </div>
       </div>
-    </header>
+
+    </>
   );
 }
 
