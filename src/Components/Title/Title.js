@@ -1,8 +1,8 @@
 import './Title.css';
 
-function Title(props) {
+function Title() {
   return (
-    <h2 className="sec_tit">{props.children}</h2>
+   <> very beautiful cosmetic shop</>
   );
 }
 
