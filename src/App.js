@@ -8,6 +8,7 @@ import Order from './Pages/Order/Order';
 import Delivery from './Pages/Delivery/Delivery';
 import Cart from './Pages/Cart/Cart';
 import NotFound from './Pages/NotFound/NotFound';
+import Product from './Pages/Product/Product';
 import {
   BrowserRouter as Router,
   Routes,
@@ -29,10 +30,12 @@ function App() {
               <Route path="order" element={<Order />} />
               <Route path="delivery" element={<Delivery />} />
               <Route path="cart" element={<Cart />} />
+              <Route path="product" element={<Product />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </div>
         </main>
+        <Product></Product>
         <Footer />
       </Router>
     </div>
