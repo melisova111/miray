@@ -2,7 +2,9 @@ import './NotFound.css';
 
 function NotFound() {
   return (
-   <> </>
+   <> 
+   
+   </>
   );
 }
 

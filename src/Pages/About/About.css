@@ -5,7 +5,7 @@
 }
 
 .about_left {
-	width: calc(50% - 45px);
+	width: calc(40% - 45px);
 	padding: 0 50px 50px 0;
 	position: relative;
 }
@@ -17,7 +17,7 @@
 }
 
 .about_right {
-	width: calc(50% - 45px);
+	width: calc(60% - 45px);
 }
 
 .about_tit{
@@ -51,7 +51,7 @@
 	letter-spacing: -0.72px;
 }
 .about_img{
-	width: 50%;
-	height: 50%;
+	width: 60%;
+	margin: 0 auto;
 }
 

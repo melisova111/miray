@@ -1,25 +1,14 @@
 import './About.css';
+import FAQ from '../../Components/FAQ/FAQ'
 
 function About() {
 	return (
 		<>
+	
 			<div className="container">
 				<div className="about_in flex">
 					<div className="about_left">
-						<div className="_img">
-
-						</div>
-						<div className="about_info">
-							<p className="about_info-txt">
-								Come and visit us
-							</p>
-							<a href="tel:+79998887766">+7(999)888-77-66</a>
-
-							<a href="mailto:happytummy@restaurant.com">happycosmetic@beautyshop.com </a>
-
-							<a href="geo:837 W. Marshall Lane Marshalltown, IA 50158, Los Angeles">837 W. Marshall Lane
-								Marshalltown, IA 50158, Los Angeles</a>
-						</div>
+					<img src="https://i.pinimg.com/564x/fb/4b/5f/fb4b5f7a63d8293335ba0cee69e76094.jpg" alt="" className='about_img' />
 					</div>
 					<div className="about_right">
 						<h2 className="about_tit">Welcome to our cosmetic world</h2>
@@ -38,6 +27,7 @@ function About() {
 					</div>
 				</div>
 			</div>
+			<FAQ></FAQ>
 		</>
 	);
 }

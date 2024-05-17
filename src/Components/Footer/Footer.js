@@ -34,8 +34,8 @@ function Footer() {
               <div className="footer_nav">
                 <span className="footer_txt"> Recources </span>
                 <ul className="footer_list">
-                  <li><a href="#">Contact</a></li>
-                  <li><a href="#">Help</a></li>
+                  <li><a href="./contact">Contact</a></li>
+                  <li><a href="./about">Help</a></li>
                 </ul>
               </div>
             </div>
